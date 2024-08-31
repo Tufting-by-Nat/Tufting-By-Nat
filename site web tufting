@@ -1,0 +1,177 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/1999/REC-html401-19991224/strict.dtd">
+<html>
+<head>
+<META http-equiv=Content-Type content="text/html; charset=UTF-8">
+<title>Exported from Notepad++</title>
+<style type="text/css">
+span {
+	font-family: 'Courier New';
+	font-size: 10pt;
+	color: #000000;
+}
+.sc0 {
+}
+</style>
+</head>
+<body>
+<div style="float: left; white-space: pre; line-height: 1; background: #FFFFFF; "><span class="sc0">&lt;!DOCTYPE html&gt;
+&lt;html lang="fr"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;title&gt;Créatrice Textile - Tufting&lt;/title&gt;
+    &lt;style&gt;
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 1rem;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .container {
+            width: 90%;
+            margin: 2rem auto;
+        }
+
+        .gallery, .shop {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            justify-content: center;
+        }
+
+        .gallery img, .shop img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        }
+
+        .shop-item {
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 1rem;
+            text-align: center;
+            background-color: white;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .contact-form input, .contact-form textarea {
+            margin-bottom: 1rem;
+            padding: 0.5rem;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        .contact-form button {
+            padding: 0.5rem;
+            border: none;
+            border-radius: 5px;
+            background-color: #333;
+            color: white;
+            cursor: pointer;
+        }
+    &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;header&gt;
+        &lt;h1&gt;Bienvenue sur mon site de Tufting&lt;/h1&gt;
+        &lt;nav&gt;
+            &lt;ul&gt;
+                &lt;li&gt;&lt;a href="#about"&gt;À propos&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="#gallery"&gt;Galerie&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="#shop"&gt;Boutique&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="#contact"&gt;Contact&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/nav&gt;
+    &lt;/header&gt;
+
+    &lt;div class="container"&gt;
+        &lt;section id="about"&gt;
+            &lt;h2&gt;À propos de moi&lt;/h2&gt;
+            &lt;p&gt;Je suis une créatrice textile passionnée par le tufting, une technique qui permet de créer des œuvres en relief. Depuis plusieurs années, je réalise des créations uniques et originales, qui apportent de la couleur et de la texture à n'importe quel espace.&lt;/p&gt;
+        &lt;/section&gt;
+
+        &lt;section id="gallery"&gt;
+            &lt;h2&gt;Galerie d'œuvres&lt;/h2&gt;
+            &lt;div class="gallery"&gt;
+                &lt;!-- Ajoute ici des images de tes œuvres --&gt;
+                &lt;img src="oeuvre1.jpg" alt="Oeuvre 1"&gt;
+                &lt;img src="oeuvre2.jpg" alt="Oeuvre 2"&gt;
+                &lt;img src="oeuvre3.jpg" alt="Oeuvre 3"&gt;
+            &lt;/div&gt;
+        &lt;/section&gt;
+
+        &lt;section id="shop"&gt;
+            &lt;h2&gt;Boutique en ligne&lt;/h2&gt;
+            &lt;div class="shop"&gt;
+                &lt;!-- Exemple de produit --&gt;
+                &lt;div class="shop-item"&gt;
+                    &lt;img src="produit1.jpg" alt="Produit 1"&gt;
+                    &lt;h3&gt;Produit 1&lt;/h3&gt;
+                    &lt;p&gt;Description du produit 1.&lt;/p&gt;
+                    &lt;p&gt;Prix: 50€&lt;/p&gt;
+                    &lt;button&gt;Acheter&lt;/button&gt;
+                &lt;/div&gt;
+                &lt;!-- Ajoute d'autres produits ici --&gt;
+            &lt;/div&gt;
+        &lt;/section&gt;
+
+        &lt;section id="contact"&gt;
+            &lt;h2&gt;Contactez-moi&lt;/h2&gt;
+            &lt;form class="contact-form"&gt;
+                &lt;input type="text" name="name" placeholder="Votre nom" required&gt;
+                &lt;input type="email" name="email" placeholder="Votre email" required&gt;
+                &lt;textarea name="message" rows="5" placeholder="Votre message" required&gt;&lt;/textarea&gt;
+                &lt;button type="submit"&gt;Envoyer&lt;/button&gt;
+            &lt;/form&gt;
+        &lt;/section&gt;
+    &lt;/div&gt;
+
+    &lt;footer&gt;
+        &lt;p&gt;&amp;copy; 2024 Créatrice Textile - Tous droits réservés.&lt;/p&gt;
+    &lt;/footer&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</span></div></body>
+</html>
